@@ -6,16 +6,16 @@ import requests
 import os
 import random
 
-today = datetime.now()
-start_date = os.environ['START_DATE']
-city = os.environ['CITY']
-birthday = os.environ['BIRTHDAY']
+today = datetime.now(2022.10.02)
+start_date = os.environ['2022.08.27']
+city = os.environ['德阳']
+birthday = os.environ['2003.06.23']
 
-app_id = os.environ["APP_ID"]
-app_secret = os.environ["APP_SECRET"]
+app_id = os.environ["wx464f9a6d928cc50b"]
+app_secret = os.environ["ac439ffcf252b0ce8bca335b7a1e9b9b"]
 
-user_id = os.environ["USER_ID"]
-template_id = os.environ["TEMPLATE_ID"]
+user_id = os.environ["oxTLX5iDpzT4KADWtWmN1RK9rerc"]
+template_id = os.environ["Sa1e3t--B_XvTtwss0c6Do8SFxnSFkf3WCAWXkHklmw"]
 
 
 def get_weather():
